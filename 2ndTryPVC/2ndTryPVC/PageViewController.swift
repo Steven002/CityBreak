@@ -10,7 +10,7 @@ import UIKit
 
 class PageViewController: UIPageViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate{
     
-    var timer = Timer()
+    //var timer = Timer()
     var index = 0
     
     lazy var VCA: [UIViewController] = {
@@ -31,24 +31,24 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
         self.dataSource = self
         self.delegate = self
         setViewControllers([VCA[0]], direction: .forward, animated: true, completion: nil)
-        if index == 4 {
+        /*if index == 4 {
             nextPage()
         }
         else{
             timer = Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(PageViewController.nextPageAuto), userInfo: nil, repeats: true)
-        }
+        }*/
     }
     
     
     
-    func nextPageAuto() {
+    /*func nextPageAuto() {
         index = self.index + 1
         
         
         if index < self.VCA.count {
             setViewControllers([VCA[index]], direction: .forward, animated: true, completion: nil)
         }
-    }
+    }*/
 
     
     public func nextPage(){
