@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					77779C211F1189AF0022A66E = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = SXGB3KDJ6W;
 						ProvisioningStyle = Automatic;
 					};
 					77779C351F1189AF0022A66E = {
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SXGB3KDJ6W;
 				INFOPLIST_FILE = CityBreak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Burgos.CityBreak;
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SXGB3KDJ6W;
 				INFOPLIST_FILE = CityBreak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Burgos.CityBreak;
@@ -507,6 +510,7 @@
 				77779C4C1F1189AF0022A66E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77779C4D1F1189AF0022A66E /* Build configuration list for PBXNativeTarget "CityBreakTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +519,7 @@
 				77779C4F1F1189AF0022A66E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77779C501F1189AF0022A66E /* Build configuration list for PBXNativeTarget "CityBreakUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				77779C521F1189AF0022A66E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
